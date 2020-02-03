@@ -1,0 +1,28 @@
+{
+    "name": "cklamm/config",
+    "description": "PHP Config",
+    "homepage": "https://github.com/cklamm/php-config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Klamm",
+            "email": "dev@cklamm.de"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "cklamm\\Config\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "cklamm\\Config\\Tests\\": "tests"
+        }
+    }
+}
